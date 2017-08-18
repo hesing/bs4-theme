@@ -1,0 +1,59 @@
+{
+  "_from": "bs4-theme",
+  "_id": "bs4-theme@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-ica38M5qRN8AGQCSVM/eltG+F/I=",
+  "_location": "/bs4-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bs4-theme",
+    "name": "bs4-theme",
+    "escapedName": "bs4-theme",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bs4-theme/-/bs4-theme-1.0.0.tgz",
+  "_shasum": "89c6b7f0ce6a44df0019009254cfde96d1be17f2",
+  "_spec": "bs4-theme",
+  "_where": "D:\\test1\\bs4",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/hesing/bs4-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Setup",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-template": "^4.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "homepage": "https://github.com/hesing/bs4-theme#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "gulpfile.js",
+  "name": "bs4-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesing/bs4-theme.git"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "version": "2.0.1",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0"
+  }
+}
