@@ -52,7 +52,7 @@
   "scripts": {
     "start": "gulp"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "^4.7.0"
