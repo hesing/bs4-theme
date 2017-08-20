@@ -15194,6 +15194,127 @@ a.text-dark:focus, a.text-dark:hover {
   border-radius: 10rem;
 }
 
+/* line 1, scss/bootstrap_custom/_popover.scss */
+.popover-top {
+  margin-bottom: 10px;
+}
+
+/* line 4, scss/bootstrap_custom/_popover.scss */
+.popover-top .arrow {
+  bottom: 0;
+  left: 50%;
+}
+
+/* line 9, scss/bootstrap_custom/_popover.scss */
+.popover-top .arrow::after,
+.popover-top .arrow::before {
+  border-bottom-width: 0;
+}
+
+/* line 14, scss/bootstrap_custom/_popover.scss */
+.popover-top .arrow::before {
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+  margin-left: -6px;
+}
+
+/* line 20, scss/bootstrap_custom/_popover.scss */
+.popover-top .arrow::after {
+  border-top-color: #fff;
+  bottom: -10px;
+  margin-left: -6px;
+}
+
+/* line 27, scss/bootstrap_custom/_popover.scss */
+.popover-right {
+  margin-left: 10px;
+}
+
+/* line 30, scss/bootstrap_custom/_popover.scss */
+.popover-right .arrow {
+  left: 0;
+  top: 50%;
+}
+
+/* line 35, scss/bootstrap_custom/_popover.scss */
+.popover-right .arrow::after,
+.popover-right .arrow::before {
+  border-left-width: 0;
+  margin-top: -8px;
+}
+
+/* line 41, scss/bootstrap_custom/_popover.scss */
+.popover-right .arrow::before {
+  border-right-color: rgba(0, 0, 0, 0.25);
+  left: -11px;
+}
+
+/* line 46, scss/bootstrap_custom/_popover.scss */
+.popover-right .arrow::after {
+  border-right-color: #fff;
+  left: -10px;
+}
+
+/* line 52, scss/bootstrap_custom/_popover.scss */
+.popover-bottom {
+  margin-top: 10px;
+}
+
+/* line 55, scss/bootstrap_custom/_popover.scss */
+.popover-bottom .arrow {
+  top: 0;
+  left: 50%;
+}
+
+/* line 60, scss/bootstrap_custom/_popover.scss */
+.popover-bottom .arrow::after,
+.popover-bottom .arrow::before {
+  border-top-width: 0;
+  margin-left: -7px;
+}
+
+/* line 66, scss/bootstrap_custom/_popover.scss */
+.popover-bottom .arrow::before {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+
+/* line 71, scss/bootstrap_custom/_popover.scss */
+.popover-bottom .arrow::after {
+  border-bottom-color: #fff;
+  top: -10px;
+}
+
+/* line 77, scss/bootstrap_custom/_popover.scss */
+.popover-left {
+  margin-right: 10px;
+}
+
+/* line 80, scss/bootstrap_custom/_popover.scss */
+.popover-left .arrow {
+  right: 0;
+  top: 50%;
+}
+
+/* line 85, scss/bootstrap_custom/_popover.scss */
+.popover-left .arrow::after,
+.popover-left .arrow::before {
+  border-right-width: 0;
+  margin-top: -8px;
+}
+
+/* line 91, scss/bootstrap_custom/_popover.scss */
+.popover-left .arrow::before {
+  border-left-color: rgba(0, 0, 0, 0.25);
+  right: -11px;
+}
+
+/* line 96, scss/bootstrap_custom/_popover.scss */
+.popover-left .arrow::after {
+  border-left-color: #fff;
+  right: -10px;
+}
+
 /* line 2, scss/custom/_custom.scss */
 body,
 h1[id] {
@@ -15225,59 +15346,14 @@ h1[id] {
   z-index: 1;
 }
 
-/* line 29, scss/custom/_custom.scss */
-.popover.bs-popover-auto[x-placement^="top"],
-.popover.bs-popover-top,
-.popover.bs-popover-auto[x-placement^="top"] {
-  margin-bottom: 10px;
-}
-
-/* line 34, scss/custom/_custom.scss */
-.popover.bs-popover-auto[x-placement^="top"] .arrow,
-.popover.bs-popover-top .arrow, .popover.bs-popover-auto[x-placement^="top"] .arrow {
-  bottom: 0;
-}
-
-/* line 39, scss/custom/_custom.scss */
-.popover.bs-popover-auto[x-placement^="top"] .arrow::after,
-.popover.bs-popover-auto[x-placement^="top"] .arrow::before,
-.popover.bs-popover-top .arrow::after, .popover.bs-popover-auto[x-placement^="top"] .arrow::after,
-.popover.bs-popover-top .arrow::before, .popover.bs-popover-auto[x-placement^="top"] .arrow::before {
-  border-bottom-width: 0;
-}
-
-/* line 46, scss/custom/_custom.scss */
-.popover.bs-popover-auto[x-placement^="top"] .arrow::before,
-.popover.bs-popover-top .arrow::before, .popover.bs-popover-auto[x-placement^="top"] .arrow::before {
-  border-top-color: rgba(0, 0, 0, 0.25);
-  bottom: -11px;
-  margin-left: -6px;
-}
-
-/* line 53, scss/custom/_custom.scss */
-.popover.bs-popover-auto[x-placement^="top"] .arrow::after,
-.popover.bs-popover-top .arrow::after, .popover.bs-popover-auto[x-placement^="top"] .arrow::after {
-  border-top-color: #fff;
-  bottom: -10px;
-  margin-left: -6px;
-}
-
-/* line 60, scss/custom/_custom.scss */
-.bs-popover-bottom-docs .arrow,
-.bs-popover-top-docs .arrow {
-  left: 50%;
-}
-
-/* line 65, scss/custom/_custom.scss */
-.bd-example-popover-static .popover {
-  display: block;
-  float: left;
-  margin: 1.25rem;
-  position: relative;
-  width: 260px;
-}
-
-/* line 74, scss/custom/_custom.scss */
+/*.popover {
+    display: block;
+    float: left;
+    margin: 1.25rem;
+    position: relative;
+    width: 260px;
+}*/
+/* line 38, scss/custom/_custom.scss */
 .bg {
   background-color: red;
   border: 4px solid red;

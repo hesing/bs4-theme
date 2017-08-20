@@ -26,49 +26,13 @@ h1[id] {
     z-index: 1;
 }
 
-.popover.bs-popover-auto[x-placement^="top"],
-.popover.bs-popover-top {
-    margin-bottom: 10px;
-}
-
-.popover.bs-popover-auto[x-placement^="top"] .arrow,
-.popover.bs-popover-top .arrow {
-    bottom: 0;
-}
-
-.popover.bs-popover-auto[x-placement^="top"] .arrow::after,
-.popover.bs-popover-auto[x-placement^="top"] .arrow::before,
-.popover.bs-popover-top .arrow::after,
-.popover.bs-popover-top .arrow::before {
-    border-bottom-width: 0;
-}
-
-.popover.bs-popover-auto[x-placement^="top"] .arrow::before,
-.popover.bs-popover-top .arrow::before {
-    border-top-color: rgba(0, 0, 0, 0.25);
-    bottom: -11px;
-    margin-left: -6px;
-}
-
-.popover.bs-popover-auto[x-placement^="top"] .arrow::after,
-.popover.bs-popover-top .arrow::after {
-    border-top-color: #fff;
-    bottom: -10px;
-    margin-left: -6px;
-}
-
-.bs-popover-bottom-docs .arrow,
-.bs-popover-top-docs .arrow {
-    left: 50%;
-}
-
-.bd-example-popover-static .popover {
+/*.popover {
     display: block;
     float: left;
     margin: 1.25rem;
     position: relative;
     width: 260px;
-}
+}*/
 
 @include media-breakpoint-down(xl) { 
     .bg{
