@@ -6,7 +6,28 @@ h1[id] {
 
 .bd-example {
     margin-top: 2rem;
+    position: relative;
+
+
+    .popover-top{
+        top: 120px;
+        left: 0;
+    }
+    .popover-right{
+        top: 120px;
+        left: 50%;
+    }
+    .popover-bottom{
+        top: 320px; 
+        left: 0;
+    }
+    .popover-left{
+        top: 320px; 
+        left: 50%;
+    }
 }
+
+
 
 .bd-example>.alert+.alert,
 .bd-example>.nav+.nav,
