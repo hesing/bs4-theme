@@ -45,8 +45,8 @@ npm publish
 
 ## Use published package
 
-https://www.npmjs.com/package/bdo-theme
+https://www.npmjs.com/package/bs4-theme
 
 ```
-npm install bdo-theme 
+npm install bs4-theme 
 ```

@@ -1,5 +1,29 @@
 @import "theme/theme";
+body{
+	padding-top: 60px;
+}
 
+.custom-element {
+  // color: gray("100");
+  // color: $warning;
+  // background-color: theme-color("success");
+}
+
+@include media-breakpoint-only(xs) { body {
+	color: red;
+	} }
+@include media-breakpoint-only(sm) { body {
+	color: green;
+	} }
+@include media-breakpoint-only(md) { body {
+	color: yellow;
+	} }
+@include media-breakpoint-only(lg) { body {
+	color: blue;
+	} }
+@include media-breakpoint-only(xl) { body {
+	color: pink;
+	} }
 
 // @import "custom/custom";
 
