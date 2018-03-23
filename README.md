@@ -3,8 +3,8 @@
 ## Setup
 
 ```
-npm install bootstrap@4.0.0-beta
-npm i gulp gulp-minify-css gulp-notify gulp-sass gulp-server-livereload gulp-template gulp-util -D
+npm install bootstrap font-awesome
+npm i gulp gulp-minify-css gulp-notify gulp-sass gulp-server-livereload gulp-template gulp-util gulp-autoprefixer gulp-purifycss bootswatch -D
 
 // OR ( for existing project )
 ncu -a 
