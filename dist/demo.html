@@ -8,65 +8,57 @@
     <title>Document</title>
 </head>
 
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<body class="vh-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-</button>
+  </button>
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="theme.html">Theme</a>
-        </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
     </ul>
-    <ul class="navbar-nav">
-
-      <li class="nav-item dropdown show">
-        <a class="nav-link dropdown-toggle" href="#components" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Components
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#navbars">Navbars</a>
-        <a class="dropdown-item" href="#buttons">Buttons</a>
-        <a class="dropdown-item" href="#typography">Typography</a>
-        <a class="dropdown-item" href="#tables">Tables</a>
-        <a class="dropdown-item" href="#forms">Forms</a>
-        <a class="dropdown-item" href="#navs">Navs</a>
-        <a class="dropdown-item" href="#alerts">Alerts</a>
-        <a class="dropdown-item" href="#progress">Progress</a>
-        <a class="dropdown-item" href="#jumbotran">Jumbotran</a>
-        <a class="dropdown-item" href="#list-group">List Groups</a>
-        <a class="dropdown-item" href="#cards">Cards</a>
-        <a class="dropdown-item" href="#dialogs">Dialogs</a>
-        <a class="dropdown-item" href="#popovers">Popover</a>
-    </div>
-    </li>
-    </ul>
+    <div class="navbar-text">Lorem ipsum dolor sit amet.</div>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-</div>
+  </div>
 </nav>
 <div class="container">
-	<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
 
-<button type="button" class="btn btn-link">Link</button>
-
-<div class="custom-element">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dolor, delectus laudantium atque nihil harum facilis? Aperiam ratione, possimus voluptates autem mollitia suscipit praesentium quam delectus eaque, optio ipsam repellendus!
+<div class="card w-50">
+  <img class="card-img-top" src="http://lorempixel.com/400/300" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
 </div>
+ 
 </div>
-
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>

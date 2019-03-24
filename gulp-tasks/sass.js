@@ -26,9 +26,9 @@ module.exports = function() {
     });
 
 
-    gulp.task('purifycss', ['styles'], function() {
+    gulp.task('purifycss', gulp.series('styles', function() {
       return gulp.src(config.dest + 'css/main.css')
         .pipe(purify([config.dest + 'js/**/*.js', config.dest + '**/*.html']))
         .pipe(gulp.dest(config.dest+'css/'));
-    });
+    }));
 };

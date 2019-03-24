@@ -7,15 +7,16 @@ var copy = require('./gulp-tasks/copy')();
 var config = require('./gulp-tasks/config');
 
 // Watch task
-gulp.task('default', ['purifycss', 'templates', 'scripts', 'copy'], function() {
+gulp.task('default', gulp.series('purifycss', 'templates', 'scripts', 'copy', function(done) {
   // run task initially, after that watch
   // gulp.start(['styles', 'templates']);
-  gulp.watch(config.source + 'scss/**/*.scss',['styles']);
-  gulp.watch(config.source + 'pages/**/*.html',['templates']);
+  gulp.watch(config.source + 'scss/**/*.scss',gulp.series('styles'));
+  gulp.watch(config.source + 'pages/**/*.html',gulp.series('templates'));
   gulp.src(config.dest)
     .pipe(server({
       livereload: true,
       directoryListing: false,
       open: true
     }));
-});
+    done();
+}));
