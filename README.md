@@ -1,4 +1,4 @@
-# BDO Theme
+# Bootstrap 4 demo
 
 ## Setup
 
